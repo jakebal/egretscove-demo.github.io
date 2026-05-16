@@ -200,7 +200,16 @@
   </style>
 </head>
 <body class="antialiased text-white font-sans bg-brand-bg">
-
+<!-- Development Status Pill -->
+<div class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 pointer-events-none select-none px-4 w-full max-w-max">
+  <div class="bg-[#fefce8]/80 border border-[#fef08a] px-6 py-2.5 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] flex flex-col items-center text-center backdrop-blur-sm bg-opacity-95">
+    <div class="flex items-center gap-2 mb-0.5">
+      <div class="w-1.5 h-1.5 rounded-full bg-yellow-500 animate-pulse"></div>
+      <span class="text-[#854d0e] font-bold text-[11px] uppercase tracking-[0.15em]">Active Development</span>
+    </div>
+    <span class="text-[#a16207] text-[10px] font-medium opacity-80">Wording is placeholder. Page may load slow.</span>
+  </div>
+</div>
   <!-- BEGIN: Hero Section -->
   <section id="home" class="relative flex flex-col pt-6 pb-30 px-6 md:px-12 md:min-h-[90vh] min-h-0">
     <!-- Background Image -->
